@@ -1,0 +1,166 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Mavjud shriftlar orasidan tanlash */
+    line-height: 1.6; /* Qator ichidagi yonlash uchun qatorning o'lchami */
+    background-color: #f8f9fa; /* Foydalanuvchi saytni ko'rish maydonining foni */
+    color: #333; /* Asosiy matn rangi */
+}
+
+a {
+    color: #007bff; /* Havolalar rangi */
+    text-decoration: none; /* Havolalar uchun underlining yo'q qilish */
+}
+
+a:hover {
+    color: #0056b3; /* Musbat havolalar rangi */
+    text-decoration: underline; /* Havolalarga tashqi chiziq qo'yish */
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px; /* Sahifaning maksimal o'lchami */
+    margin: 0 auto; /* Sahifani markazga joylash */
+    padding: 0 15px; /* Sahifaning bosh va oxirgi chiziqqa masofa */
+    box-sizing: border-box; /* Maydonlar bo'ylab qatorlar soni kabi box-sizing'ning margin va paddingdan foydalanishini yoqitish */
+}.info__home {
+    background-color: #C8D0C8;
+    padding: 200px 20px;
+    text-align: center;
+  }
+  
+  .grow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info__home h1 {
+    font-size: 42px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700; 
+  }
+  
+  .info__home p {
+    font-size: 18px;
+    color: #666;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+  .info__home span{
+    color: #0056b3;
+  }
+  
+  .info__home button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 44px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .info__home button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Düğme animasyonu */
+  @keyframes bang {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .info__home button:hover {
+    animation: bang 1s infinite;
+  }
+.card{
+    width: 340px;
+    height: 529px;
+    display: flex;
+    align-items: center;
+}
+.card p{
+    text-align: center;
+    color: #948989;
+    
+}
+.card h1{
+    text-align: center ;
+    margin-top: 60px;
+    color:#FFFFFF;
+    
+}
+.info__quality h1{
+    text-align: center;
+    color: #FFFFFF;
+    span{
+    color: #007bff;
+}
+}
+.info{
+    padding: 56px 100px 700px; 
+    background-color: #121212FA;
+}
+.info__quality{
+        background-image: url('./img/laptop.png'); /* Fono rasmi manzili */
+        background-size: 300px; /* Rasmi kengaytirib bo'lishi */
+        background-position: bottom left; /* Rasmi pastki burchakka otib berish */
+        background-repeat: no-repeat; /* Rasmi qaytarilmagan */
+}   
+.card__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.card:nth-child(4){
+    border-top-right-radius:50px ;
+}
+.card:nth-child(1){
+    border-top-left-radius: 50px    ;
+}
+.card h1{
+color: #FFFFFF;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #092031;
+    border-radius: 12px;
+    box-shadow: 0 0 80px rgba(139, 135, 135, 0.443); /* yoritgich (box-shadow) */;
+}
+.line__height h1{
+    color: #f8f9fa;
+    span{
+        color: #69DBFF;
+    }
+
+}
+//info_tech//
+.info__tech{
+ background-color: #121212FA; 
+}
+.line__height {
+    display: flex; /* o'rniga joylashish */
+    align-items: center;
+}
+.line__height div {
+    margin-left: 10px;
+    width: 984.01px; /* to'la ekranga to'g'ri kelish */
+    height: 2px;
+    background-color:#69DBFF;
+    
+    
+}

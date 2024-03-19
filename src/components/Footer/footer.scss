@@ -1,0 +1,69 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Mavjud shriftlar orasidan tanlash */
+    line-height: 1.6; /* Qator ichidagi yonlash uchun qatorning o'lchami */
+    background-color: #f8f9fa; /* Foydalanuvchi saytni ko'rish maydonining foni */
+    color: #333; /* Asosiy matn rangi */
+}
+
+a {
+    color: #007bff; /* Havolalar rangi */
+    text-decoration: none; /* Havolalar uchun underlining yo'q qilish */
+}
+
+a:hover {
+    color: #0056b3; /* Musbat havolalar rangi */
+    text-decoration: underline; /* Havolalarga tashqi chiziq qo'yish */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Sahifaning maksimal o'lchami */
+    margin: 0 auto; /* Sahifani markazga joylash */
+    padding: 0 15px; /* Sahifaning bosh va oxirgi chiziqqa masofa */
+    box-sizing: border-box; /* Maydonlar bo'ylab qatorlar soni kabi box-sizing'ning margin va paddingdan foydalanishini yoqitish */
+}
+.footer{
+    background-color: #000000;
+   height: 414px;
+
+
+}
+.row__hui{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+.footer h4 {
+    font-size: 20px; /* Sarlavha o'lchami */
+    font-weight: bold; /* Sarlavha shrift og'irligi */
+    margin-bottom: 15px; /* Pastdagi masofa */
+    color: aliceblue;
+}
+
+/* Stil Ro'yxat elementlari */
+.footer ul {
+    padding: 0; /* Ro'yxat ichidagi marginini yo'q qilish */
+}
+
+.footer ul li {
+    list-style-type: none; /* Ro'yxat belgilari yo'q qilish */
+    margin-bottom: 10px; /* Elementlar orasidagi pastdagi masofa */
+    color: #69DBFF    ;
+    
+}
+
+.footer ul li a {
+    color: #69DBFF; /* Havolalar rangi */
+    text-decoration: none; /* Havolalarga underlining qo'yish */
+    transition: color 0.3s ease; /* Havolalarning rangining o'zgarishining animatsiyasi */
+}
+
+.footer ul li a:hover {
+    color: #007bff; /* Musbat havolalar rangi */
+}
+
+.footer p{
+    color: #0056b3;
+}

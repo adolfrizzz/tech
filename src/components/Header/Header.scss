@@ -1,0 +1,54 @@
+.nav__bar{
+    background-color: #C8D0C8;
+    
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        gap: 50px;
+    }
+}
+.logo__back{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+
+}
+.header__logo{
+    width: 59px;
+    height: 60px;
+}
+.navbar__49{
+    width: 1528px;
+    height: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+   
+
+}
+
+.header__text{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.technolgy__logo{
+    width: 129px;
+    height: 60;
+    font-size: 18px;
+    margin: 0;
+}
